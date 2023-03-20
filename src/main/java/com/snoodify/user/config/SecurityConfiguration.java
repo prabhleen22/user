@@ -19,7 +19,9 @@ public class SecurityConfiguration {
 
     public static final String[] ENDPOINTS_WHITELIST = {
            "/register",
-            "/login/**"
+            "/login/**",
+            "/generateOtp",
+            "/validateOtp"
     };
 
     @Autowired
